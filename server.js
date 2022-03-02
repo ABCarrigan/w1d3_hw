@@ -6,6 +6,11 @@ app.get('/greeting/:name', (req, res) => {
     res.send('Hello, ' + req.params.name);
   });
 
+
 app.listen(port,() => {
     console.log('listening on port' , port);
 });
+
+
+// Pick up work from Tip Calculator section.
+
